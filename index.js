@@ -10,11 +10,11 @@ const prefix = '!'
 var servers = {}
 
 bot.on('ready' , () => {
-    console.log('Bot is online!')
-    bot.channels.fetch('718216774734053480')
-    .then(channel => {
-        channel.send("i'm back bitches!");
-    })
+    // console.log('Bot is online!')
+    // bot.channels.fetch('718216774734053480')
+    // .then(channel => {
+    //     channel.send("i'm back bitches!");
+    // })
     
 })
 
