@@ -1,5 +1,4 @@
 const discord = require('discord.js')
-const calculator = require('./calculator')
 const ytdl = require('ytdl-core')
 const bot = new discord.Client()
 
