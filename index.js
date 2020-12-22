@@ -10,27 +10,10 @@ var servers = {}
 
 bot.on('ready' , () => {
     // console.log('Bot is online!')
-    // bot.channels.fetch('718216774734053480')
-    // .then(channel => {
-    //     channel.send("i'm back bitches!");
-    // })
     
 })
 
 bot.on('message' , (msg) => {
-    // if(msg.content.toUpperCase() === 'ELTI'){
-    //     msg.reply('ELTI is BABA!')
-    // }else if(msg.content.toUpperCase() === 'DITI'){
-    //     msg.reply('Your everyday weak frontend programmer.')
-    // }else if(msg.content.toUpperCase() === 'AZEMI'){
-    //     msg.reply("I'm not allowed to talk about people who might potentially hurt me.")
-    // }else if(msg.content.toUpperCase() === 'GENCI'){
-    //     msg.reply('No words for this amazing guy')
-    // }else if(msg.content.toUpperCase() === 'RRONI' ){
-    //     msg.reply('Guy who created me.')
-    // }else if(msg.content.toUpperCase() === 'LAVDIMI' ){
-    //     msg.reply('He is TRASHHHHHH!')
-    // }
 
     let args = msg.content.substring(prefix.length).split(" ")
 
